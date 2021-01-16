@@ -1,16 +1,16 @@
 import React from 'react'
 import Login from '../Pages/Login'
-import DashBoard from '../Pages/Dashboard'
+import Dashboard from '../Pages/Dashboard'
 import NotFound from '../Pages/NotFound'
 
 const routes = [
   {
-    path: '/',
+    path: '/login',
     component: Login,
   },
   {
     path: '/dashboard',
-    component: DashBoard,
+    component: Dashboard,
   },
   {
     path: '/*',
